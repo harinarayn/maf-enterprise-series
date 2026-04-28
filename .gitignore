@@ -1,0 +1,28 @@
+# Environment — never commit real keys
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+dist/
+*.egg-info/
+
+# uv
+uv.lock
+
+# IDE / tooling
+.claude/
+.vscode/
+.idea/
+
+# Presentation assets (generated, not source)
+*.pptx
+*.pdf
+scripts/generate_slides.py
+scripts/generate_pdf_slides.py
+
+# OS
+.DS_Store
+Thumbs.db
